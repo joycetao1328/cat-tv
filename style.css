@@ -1,0 +1,75 @@
+img {
+  border-style: none;
+}
+
+#logo li {
+  float: left;
+}
+
+#channels li {
+  float: right;
+}
+h1 {
+  color: #208a43;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+#topnav li {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 18%;
+}
+
+#submit a:link, a:visited {
+  display: block;
+  color: #ffffff;
+  background-color: #EEBF25;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+
+#donate a:link, a:visited {
+  display: block;
+  color: #ffffff;
+  background-color: #3B2EF1 ;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+
+#navigation li {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 14.25%;
+}
+#navigation a:link, a:visited {
+  display: block;
+  color: #ffffff;
+  background-color: #208a43;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border-left-style: solid;
+  border-left-width:thin;
+  border-color: #000000;
+}
+
+#navigation a:hover, a:active {
+  color: #12572c;
+  background-color: #ffffff;
+}
