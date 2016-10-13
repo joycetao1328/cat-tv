@@ -103,3 +103,18 @@ h2 {
 #tweet {
   float:right;
 }
+
+#footer {
+  color: black;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.8em;
+  border-top: 1px solid black;
+}
+
+.footer1 {
+  font-size: 0.8em;
+  float: left;
+  color: black;
+  font-family: Georgia, "Times New Roman", serif;
+  margin-left: 30px;
+}
