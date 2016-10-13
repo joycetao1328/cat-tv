@@ -73,3 +73,8 @@ h2 {
   color: #12572c;
   background-color: #ffffff;
 }
+
+.twitter-wrapper {
+  float: left;
+  margin-right: 30px;
+}
