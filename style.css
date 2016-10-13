@@ -21,10 +21,9 @@ h2 {
 #topnav li {
   float: right;
   list-style: none;
-  left: -100%;
-  margin: -12px 0 0 2px;
-  width: 100%;
-}
+  margin: 0;
+  padding: 0;
+  width: 18%;
 }
 
 #submit a:link, a:visited {
