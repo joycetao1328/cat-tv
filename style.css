@@ -83,3 +83,7 @@ h2 {
     margin-right: 30px;
 >>>>>>> origin/master
 }
+
+#tweet {
+  float: right;
+}
