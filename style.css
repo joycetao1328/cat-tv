@@ -18,7 +18,7 @@ h2 {
   font-size: 1em;
 }
 
-h3 {font-size: .5em;}
+h3 {font-size: 1em;}
 #topnav li {
   float: right;
   list-style: none;
@@ -118,4 +118,21 @@ h3 {font-size: .5em;}
   color: black;
   font-family: Georgia, "Times New Roman", serif;
   margin-left: 30px;
+}
+
+#map a:link, a:visited {
+  display: block;
+  color: #ffffff;
+  background-color: #208a43;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border-left-style: solid;
+  border-left-width:thin;
+  border-color: #000000;
+}
+
+#map a:hover, a:active {
+  color: #12572c;
+  background-color: #ffffff;
 }
