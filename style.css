@@ -2,42 +2,48 @@ img {
   border-style: none;
 }
 
-#logo li {
-  float: left;
-}
-#logotext{
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.5em
-  color:#208a43;
+#logo {
+  margin-left: 35%;
 }
 
-.logotext{
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.5em
-  color: #208a43;
+.input[type=text]{
+  width: 130px;
 }
 
-#channels li {
-  float: right;
-}
 h1 {
-  color: #12572c;
+  font-family: 'Roboto', sans-serif;
   font-size: 2em;
-  font-family:'Roboto Condensed', sans-serif;
-
+  color:#208a43;
+  font-weight: lighter;
+  text-align:center;
 }
 
 h2 {
-  font-size: 0.8em;
+  color: #12572c;
+  font-size: 2em;
+  font-family:'Roboto Condensed', sans-serif;
+  text-decoration: underline;
 }
 
-h3 {font-size: 1em;}
+
+h3 {font-size: .75em;
+    text-align:right;
+  }
 
 p{
   font-size: 1em;
   font-family: 'Libre Baskerville', serif;
   color: black;
 }
+
+#slideshow {
+  width:100%;
+}
+#calendar {
+  width:100%;
+  
+}
+
 #topnav li {
   float: right;
   list-style: none;
@@ -47,6 +53,7 @@ p{
 }
 
 #submit a:link, a:visited {
+  font-family:'Roboto Condensed', sans-serif;
   display: block;
   color: #ffffff;
   background-color: #f1ad1d;
@@ -59,6 +66,7 @@ p{
 }
 
 #donate a:link, a:visited {
+  font-family:'Roboto Condensed', sans-serif;
   display: block;
   color: #ffffff;
   background-color: #1d65d4;
@@ -71,13 +79,15 @@ p{
 }
 
 #navigation li {
+  font-family:'Roboto Condensed', sans-serif;
   list-style-type: none;
-  margin: 0;
+  margin-left: 0;
   padding: 0;
   border: 0;
-  width: 14.25%;
+  width: 70%;
 }
 #navigation a:link, a:visited {
+  font-family:'Roboto Condensed', sans-serif;
   display: block;
   color: #ffffff;
   background-color: #208a43;
@@ -90,9 +100,22 @@ p{
 }
 
 #navigation a:hover, a:active {
+  font-family:'Roboto Condensed', sans-serif;
   color: #12572c;
   background-color: #ffffff;
 }
+
+
+
+#Watchmore {
+  color: black;
+  list-style-type: none;
+  margin-left:35%;
+  text-decoration:underline;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-style: italic;
+}
+
 
 .twitter-wrapper {
 <<<<<<< HEAD
@@ -125,29 +148,13 @@ p{
 }
 
 #footer {
-  color: white;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.8em;
-  border-top: 1px solid black;
-<<<<<<< HEAD
-  background-color: #208a43;
-=======
-  background-color: #208a43;
->>>>>>> origin/master
+display: block;
+background-color: #208a43;
 }
 
-.footer1 {
-  font-size: 0.8em;
-  float: left;
+.footer {
   color: white;
-  font-family: Georgia, "Times New Roman", serif;
-  margin-left: 30px;
-<<<<<<< HEAD
-  background-color: #208a43;
-
-=======
-  background-color: #208a43;
->>>>>>> origin/master
+  font-size:0.75em;
 }
 
 #map a:link, a:visited {
