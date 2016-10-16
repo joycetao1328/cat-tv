@@ -114,10 +114,11 @@ p{
 }
 
 #footer {
-  color: black;
+  color: white;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 0.8em;
   border-top: 1px solid black;
+  background-color: #208a43; 
 }
 
 .footer1 {
