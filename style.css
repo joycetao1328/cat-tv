@@ -33,7 +33,7 @@ h3 {font-size: 1em;
   }
 
 p{
-  font-size: 0.9em;
+  font-size: 1em;
   font-family: 'Libre Baskerville', serif;
   color: black;
 }
@@ -43,7 +43,7 @@ p{
 }
 #calendar {
   width:100%;
-
+  
 }
 
 #topnav li {
@@ -108,7 +108,12 @@ p{
   background-color: white;
 }
 
+<<<<<<< HEAD
 /**/
+=======
+
+
+>>>>>>> origin/master
 #Watchmore {
   color: black;
   list-style-type: none;
@@ -120,9 +125,14 @@ p{
 
 
 .twitter-wrapper {
+<<<<<<< HEAD
   float: left;
   margin-right: 30px;
   width: 100%
+=======
+    float: left;
+    margin-right: 30px;
+>>>>>>> origin/master
 }
 
 .videowrapper {
@@ -149,14 +159,14 @@ display: block;
 background-color: #208a43;
 }
 
+.staff{
+margin-left: 30%;
+}
 .footer {
   color: white;
   font-size:0.75em;
 }
 
-.staff {
-  margin-left: 30%;
-  }
 #map a:link, a:visited {
   display: block;
   color: #ffffff;
@@ -173,6 +183,7 @@ background-color: #208a43;
   color: #12572c;
   background-color: #ffffff;
 }
+
 
 #click {
   font-family:'Roboto Condensed', sans-serif;
