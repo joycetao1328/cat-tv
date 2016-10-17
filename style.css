@@ -1,6 +1,5 @@
 img {
   border-style: none;
-
 }
 
 #logo {
@@ -8,8 +7,11 @@ img {
   height: 100%;
 }
 
+body{
+  margin: 0 auto;
+}
 .input[type=text]{
-  width: 200px;
+  width: 130px;
 }
 
 h1 {
@@ -28,22 +30,23 @@ h2 {
 }
 
 
-h3 {font-size: 1em;
-    text-align:center;
+h3 {
+  font-size: .75em;
+  text-align:right;
   }
 
 p{
-  font-size: 1em;
+  font-size: 0.9em;
   font-family: 'Libre Baskerville', serif;
   color: black;
 }
 
 #slideshow {
   width:100%;
+  margin-left: 0;
 }
 #calendar {
   width:100%;
-  
 }
 
 #topnav li {
@@ -150,15 +153,14 @@ p{
   border-width: medium;
   border-color: #ffffff;
 }
-
-
 #navigation li {
+  float: left;
   font-family:'Roboto Condensed', sans-serif;
   list-style-type: none;
   margin-left: 0;
   padding: 0;
   border: 0;
-  width: 70%;
+  width: 100%;
 }
 #navigation a:link, a:visited {
   font-family:'Roboto Condensed', sans-serif;
@@ -170,21 +172,24 @@ p{
   padding: 10px;
   border-left-style: solid;
   border-left-width:thin;
-  border-color: #000000;
+  border-color: none;
 }
 
 #navigation a:hover, a:active {
   font-family:'Roboto Condensed', sans-serif;
   color: #12572c;
-  background-color: white;
+  background-color: #ffffff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border-left-style: solid;
+  border-left-width:thin;
+  border-color: none;
 }
 
-<<<<<<< HEAD
-/**/
-=======
 
 
->>>>>>> origin/master
 #Watchmore {
   color: black;
   list-style-type: none;
@@ -196,14 +201,9 @@ p{
 
 
 .twitter-wrapper {
-<<<<<<< HEAD
   float: left;
   margin-right: 30px;
   width: 100%
-=======
-    float: left;
-    margin-right: 30px;
->>>>>>> origin/master
 }
 
 .videowrapper {
@@ -230,13 +230,14 @@ display: block;
 background-color: #208a43;
 }
 
-.staff{
-margin-left: 30%;
-}
 .footer {
   color: white;
   font-size:0.75em;
 }
+
+.staff {
+  margin-left: 30%;
+  }
 
 #map a:link, a:visited {
   display: block;
@@ -254,7 +255,6 @@ margin-left: 30%;
   color: #12572c;
   background-color: #ffffff;
 }
-
 
 #click {
   font-family:'Roboto Condensed', sans-serif;
