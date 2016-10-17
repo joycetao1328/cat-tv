@@ -1,13 +1,15 @@
 img {
   border-style: none;
+
 }
 
 #logo {
   margin-left: 35%;
+  width:225px;
 }
 
 .input[type=text]{
-  width: 130px;
+  width: 200px;
 }
 
 h1 {
@@ -26,8 +28,8 @@ h2 {
 }
 
 
-h3 {font-size: .75em;
-    text-align:right;
+h3 {font-size: 1em;
+    text-align:center;
   }
 
 p{
@@ -73,7 +75,7 @@ p{
   text-align: center;
   text-decoration: none;
   padding: 6px;
-  border-style: solid;
+  border-style: hidden;
   border-width: medium;
   border-color: #ffffff;
 }
@@ -91,6 +93,7 @@ p{
   display: block;
   color: #ffffff;
   background-color: #208a43;
+;
   text-align: center;
   text-decoration: none;
   padding: 10px;
@@ -102,9 +105,10 @@ p{
 #navigation a:hover, a:active {
   font-family:'Roboto Condensed', sans-serif;
   color: #12572c;
-  background-color: #ffffff;
+  background-color: white;
 }
 
+/**/
 #Watchmore {
   color: black;
   list-style-type: none;
@@ -174,22 +178,25 @@ background-color: #208a43;
   font-family:'Roboto Condensed', sans-serif;
   display: block;
   color: #ffffff;
-  background-color:#1d65d4;
+  background-color:#208a43;
   text-align: center;
   text-decoration: none;
   padding: 6px;
   border-style: solid;
   border-width: medium;
   border-color: #ffffff;
+  width:30%;
+  margin-left:35%;
 }
 
-}
 #banks li{
-  display: inline;
+  display: block;
   text-align: center;
-  list-style: none;
+  list-style-type:none;
   margin:0;
   padding: 0;
+  float:right;
+
 }
 
 #banks a:hover, a:active {
@@ -209,6 +216,34 @@ background-color: #208a43;
   padding: 0;
   width: 70%;
 }
-#amount li{
-  visibility:visible;;
+
+
+#amount {
+  text-align:left;
+  font-size:1.2em;
+}
+
+
+.donors {
+  font-size: 1.25em;
+  display: block;
+  border-style:solid;
+  background-color:#208a43;
+  border-width:thin;
+  border-color:white;
+  color:white;
+  width:100%;
+  text-align:center;
+}
+
+
+.subdonors {
+  font-size:1.2em;
+  text-decoration: underline;
+  color:#208a43;
+}
+
+.names {
+  font-size:1.15em;
+  color:black;
 }
