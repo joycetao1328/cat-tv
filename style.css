@@ -118,14 +118,9 @@ p{
 
 
 .twitter-wrapper {
-<<<<<<< HEAD
   float: left;
   margin-right: 30px;
   width: 100%
-=======
-    float: left;
-    margin-right: 30px;
->>>>>>> origin/master
 }
 
 .videowrapper {
@@ -157,6 +152,9 @@ background-color: #208a43;
   font-size:0.75em;
 }
 
+.staff {
+  margin-left: 30%;
+  }
 #map a:link, a:visited {
   display: block;
   color: #ffffff;
