@@ -75,10 +75,11 @@ p{
   text-align: center;
   text-decoration: none;
   padding: 6px;
-  border-style: hidden;
+  border-style: solid;
   border-width: medium;
   border-color: #ffffff;
 }
+
 
 #navigation li {
   font-family:'Roboto Condensed', sans-serif;
