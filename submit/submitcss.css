@@ -40,3 +40,116 @@ p{
   font-family: 'Libre Baskerville', serif;
   color: black;
 }
+
+#topnav li {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 18%;
+}
+
+#submit a:link{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #f1ad1d;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#submit a:visited{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #f1ad1d;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#submit a:active{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #000000;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#submit a:hover{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #12572c;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:link {
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #1d65d4;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:visited {
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #1d65d4;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:active{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:hover{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #12572c;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+
+#topnav li {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 18%;
+}
