@@ -1,11 +1,25 @@
 img {
   border-style: none;
   width: 100%;
+  display: block;
 }
 
 #logo {
   width: 100%;
   height: 100%;
+  display: block;
+}
+
+#logo1 { /*big CAT pic*/
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#logo2 { /*mobile desktop logo*/
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 body{
@@ -210,6 +224,10 @@ flex-wrap: wrap;
 	#sidebar {
 		display: none;
 	}
+  #logo {
+    display: none;
+  }
+
 }
 
 @media screen and (min-width: 560px) {
@@ -236,6 +254,15 @@ flex-wrap: wrap;
 		width: 80%;
 		margin: 1.5em auto;
 	}
+  #logo{
+    display: block;
+  }
+  #logo1{
+    display: none;
+  }
+  #logo2{
+    display: none;
+  }
 }
 
 
@@ -250,4 +277,10 @@ flex-wrap: wrap;
 		max-width: 60em;
 		margin: 1.5em auto;
 	}
+  #logo1{
+    display: none;
+  }
+  #logo2{
+    display: none;
+  }
 }
