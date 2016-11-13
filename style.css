@@ -47,6 +47,7 @@ p{
 }
 #calendar {
   width:100%;
+<<<<<<< HEAD
 }
 
 #topnav li {  float: right;  list-style: none;  margin: 0;  padding: 0;  width: 18%;}#submit a:link{  font-family:'Roboto Condensed', sans-serif;  display: block;  color: #ffffff;  background-color: #f1ad1d;  text-align: center;  text-decoration: none;  padding: 6px;  border-style: solid;  border-width: medium;  border-color: #ffffff;}#submit a:visited{  font-family:'Roboto Condensed', sans-serif;  display: block;  color: #ffffff;  background-color: #f1ad1d;  text-align: center;  text-decoration: none;  padding: 6px;  border-style: solid;  border-width: medium;  border-color: #ffffff;}#submit a:active{  font-family:'Roboto Condensed', sans-serif;  display: block;  color: #000000;  background-color: white;  text-align: center;  text-decoration: none;  padding: 6px;  border-style: solid;  border-width: medium;  border-color: #ffffff;}#submit a:hover{  font-family:'Roboto Condensed', sans-serif;  display: block;  color: #12572c;  background-color: white;  text-align: center;  text-decoration: none;  padding: 6px;  border-style: solid;  border-width: medium;  border-color: #ffffff;}#donate a:link {  font-family:'Roboto Condensed', sans-serif;  display: block;  color: #ffffff;  background-color: #1d65d4;  text-align: center;  text-decoration: none;  padding: 6px;  border-style: solid;  border-width: medium;  border-color: #ffffff;}
@@ -86,6 +87,114 @@ p{
   border-width: medium;
   border-color: #ffffff;
 }
+=======
+}
+
+#topnav li {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 18%;
+}
+
+#submit a:link{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #f1ad1d;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#submit a:visited{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #f1ad1d;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#submit a:active{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #000000;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#submit a:hover{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #12572c;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:link {
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #1d65d4;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:visited {
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #1d65d4;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:active{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:hover{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #12572c;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+>>>>>>> origin/master
 #navigation li {
   float: left;
   font-family:'Roboto Condensed', sans-serif;
@@ -193,13 +302,18 @@ background-color: #208a43;
   font-family:'Roboto Condensed', sans-serif;
   display: block;
   color: #ffffff;
+<<<<<<< HEAD
   background-color:#1d65d4;
+=======
+  background-color:#208a43;
+>>>>>>> origin/master
   text-align: center;
   text-decoration: none;
   padding: 6px;
   border-style: solid;
   border-width: medium;
   border-color: #ffffff;
+<<<<<<< HEAD
 }
 
 #banks li{
@@ -208,6 +322,20 @@ background-color: #208a43;
   list-style: none;
   margin:0;
   padding: 0;
+=======
+  width:30%;
+  margin-left:35%;
+}
+
+#banks li{
+  display: block;
+  text-align: center;
+  list-style-type:none;
+  margin:0;
+  padding: 0;
+  float:right;
+  width:20%;
+>>>>>>> origin/master
 }
 
 #banks a:hover, a:active {
@@ -227,6 +355,39 @@ background-color: #208a43;
   padding: 0;
   width: 70%;
 }
+<<<<<<< HEAD
 #amount li{
   visibility:visible;;
+=======
+
+
+#amount {
+  text-align:left;
+  font-size:1.2em;
+}
+
+
+.donors {
+  font-size: 1.25em;
+  display: block;
+  border-style:solid;
+  background-color:#208a43;
+  border-width:thin;
+  border-color:white;
+  color:white;
+  width:100%;
+  text-align:center;
+}
+
+
+.subdonors {
+  font-size:1.2em;
+  text-decoration: underline;
+  color:#208a43;
+}
+
+.names {
+  font-size:1.15em;
+  color:black;
+>>>>>>> origin/master
 }
