@@ -283,4 +283,19 @@ flex-wrap: wrap;
   #logo2{
     display: none;
   }
+  .menu-trigger {
+    display: none;
+  }
+}
+
+.menu-trigger {
+  order: 1;
+  font-size: 1.75em;
+  width: 2em;
+}
+
+@media (max-width: 799px) {
+  .nav {
+    display: none;
+  }
 }
