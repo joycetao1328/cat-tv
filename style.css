@@ -3,9 +3,13 @@ img {
 }
 
 #logo {
-  margin-left: 35%;
+  width: 100%;
+  height: 100%;
 }
 
+body{
+  margin: 0 auto;
+}
 .input[type=text]{
   width: 130px;
 }
@@ -26,8 +30,9 @@ h2 {
 }
 
 
-h3 {font-size: .75em;
-    text-align:right;
+h3 {
+  font-size: .75em;
+  text-align:right;
   }
 
 p{
@@ -38,34 +43,14 @@ p{
 
 #slideshow {
   width:100%;
+  margin-left: 0;
 }
 #calendar {
   width:100%;
-
 }
 
-#topnav li {
-  float: right;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 18%;
-}
-
-#submit a:link, a:visited {
-  font-family:'Roboto Condensed', sans-serif;
-  display: block;
-  color: #ffffff;
-  background-color: #f1ad1d;
-  text-align: center;
-  text-decoration: none;
-  padding: 6px;
-  border-style: solid;
-  border-width: medium;
-  border-color: #ffffff;
-}
-
-#donate a:link, a:visited {
+#topnav li {  float: right;  list-style: none;  margin: 0;  padding: 0;  width: 18%;}#submit a:link{  font-family:'Roboto Condensed', sans-serif;  display: block;  color: #ffffff;  background-color: #f1ad1d;  text-align: center;  text-decoration: none;  padding: 6px;  border-style: solid;  border-width: medium;  border-color: #ffffff;}#submit a:visited{  font-family:'Roboto Condensed', sans-serif;  display: block;  color: #ffffff;  background-color: #f1ad1d;  text-align: center;  text-decoration: none;  padding: 6px;  border-style: solid;  border-width: medium;  border-color: #ffffff;}#submit a:active{  font-family:'Roboto Condensed', sans-serif;  display: block;  color: #000000;  background-color: white;  text-align: center;  text-decoration: none;  padding: 6px;  border-style: solid;  border-width: medium;  border-color: #ffffff;}#submit a:hover{  font-family:'Roboto Condensed', sans-serif;  display: block;  color: #12572c;  background-color: white;  text-align: center;  text-decoration: none;  padding: 6px;  border-style: solid;  border-width: medium;  border-color: #ffffff;}#donate a:link {  font-family:'Roboto Condensed', sans-serif;  display: block;  color: #ffffff;  background-color: #1d65d4;  text-align: center;  text-decoration: none;  padding: 6px;  border-style: solid;  border-width: medium;  border-color: #ffffff;}
+#donate a:visited {
   font-family:'Roboto Condensed', sans-serif;
   display: block;
   color: #ffffff;
@@ -77,14 +62,38 @@ p{
   border-width: medium;
   border-color: #ffffff;
 }
-
+#donate a:active{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:hover{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #12572c;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
 #navigation li {
+  float: left;
   font-family:'Roboto Condensed', sans-serif;
   list-style-type: none;
   margin-left: 0;
   padding: 0;
   border: 0;
-  width: 70%;
+  width: 100%;
 }
 #navigation a:link, a:visited {
   font-family:'Roboto Condensed', sans-serif;
@@ -96,13 +105,20 @@ p{
   padding: 10px;
   border-left-style: solid;
   border-left-width:thin;
-  border-color: #000000;
+  border-color: none;
 }
 
 #navigation a:hover, a:active {
   font-family:'Roboto Condensed', sans-serif;
   color: #12572c;
   background-color: #ffffff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border-left-style: solid;
+  border-left-width:thin;
+  border-color: none;
 }
 
 
@@ -131,7 +147,7 @@ p{
 }
 
 .videowrapper iframe {
-  position: absolute;
+  position: relative;;
   top: 0;
   left: 0;
   width: 100%;
@@ -155,6 +171,7 @@ background-color: #208a43;
 .staff {
   margin-left: 30%;
   }
+
 #map a:link, a:visited {
   display: block;
   color: #ffffff;
@@ -170,4 +187,46 @@ background-color: #208a43;
 #map a:hover, a:active {
   color: #12572c;
   background-color: #ffffff;
+}
+
+#click {
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color:#1d65d4;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+
+#banks li{
+  display: inline;
+  text-align: center;
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+#banks a:hover, a:active {
+  background-color: #1d65d4;
+}
+
+#check{
+  color: red;
+  font-size:1.2em;
+}
+#check li{
+  color: black;
+  display:inline-table;
+  border-style: solid;
+  border-width:thin;
+  list-style: none;
+  padding: 0;
+  width: 70%;
+}
+#amount li{
+  visibility:visible;;
 }
