@@ -1,0 +1,460 @@
+img {
+  border-style: none;
+}
+
+#logo {
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  margin: 0 auto;
+}
+.input[type=text]{
+  width: 130px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  color:#208a43;
+  font-weight: lighter;
+  text-align:center;
+}
+
+h2 {
+  color: #12572c;
+  font-size: 2em;
+  font-family:'Roboto Condensed', sans-serif;
+  text-decoration: underline;
+}
+
+
+h3 {
+  font-size: .75em;
+  text-align:right;
+  }
+
+p{
+  font-size: 0.9em;
+  font-family: 'Libre Baskerville', serif;
+  color: black;
+}
+
+#slideshow {
+  width:100%;
+  margin-left: 0;
+}
+#calendar {
+  width:100%;
+<<<<<<< HEAD
+}
+
+#topnav li {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 18%;
+}
+
+#submit a:link{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #f1ad1d;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#submit a:visited{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #f1ad1d;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#submit a:active{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #000000;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#submit a:hover{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #12572c;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:link {
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #1d65d4;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:visited {
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #1d65d4;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:active{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:hover{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #12572c;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+=======
+}
+
+#topnav li {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 18%;
+}
+
+#submit a:link{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #f1ad1d;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#submit a:visited{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #f1ad1d;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#submit a:active{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #000000;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#submit a:hover{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #12572c;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:link {
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #1d65d4;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:visited {
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #1d65d4;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:active{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+#donate a:hover{
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #12572c;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+}
+>>>>>>> origin/master
+#navigation li {
+  float: left;
+  font-family:'Roboto Condensed', sans-serif;
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
+#navigation a:link, a:visited {
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #208a43;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border-left-style: solid;
+  border-left-width:thin;
+  border-color: none;
+}
+
+#navigation a:hover, a:active {
+  font-family:'Roboto Condensed', sans-serif;
+  color: #12572c;
+  background-color: #ffffff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border-left-style: solid;
+  border-left-width:thin;
+  border-color: none;
+}
+
+
+
+#Watchmore {
+  color: black;
+  list-style-type: none;
+  margin-left:35%;
+  text-decoration:underline;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-style: italic;
+}
+
+
+.twitter-wrapper {
+  float: left;
+  margin-right: 30px;
+  width: 100%
+}
+
+.videowrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0
+}
+
+.videowrapper iframe {
+  position: relative;;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#tweet {
+  float:right;
+}
+
+#footer {
+display: block;
+background-color: #208a43;
+}
+
+.footer {
+  color: white;
+  font-size:0.75em;
+}
+
+.staff {
+  margin-left: 30%;
+  }
+
+#map a:link, a:visited {
+  display: block;
+  color: #ffffff;
+  background-color: #208a43;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border-left-style: solid;
+  border-left-width:thin;
+  border-color: #000000;
+}
+
+#map a:hover, a:active {
+  color: #12572c;
+  background-color: #ffffff;
+}
+
+#click {
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+<<<<<<< HEAD
+  background-color:#1d65d4;
+=======
+  background-color:#208a43;
+>>>>>>> origin/master
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+<<<<<<< HEAD
+}
+
+#banks li{
+  display: inline;
+  text-align: center;
+  list-style: none;
+  margin:0;
+  padding: 0;
+=======
+  width:30%;
+  margin-left:35%;
+}
+
+#banks li{
+  display: block;
+  text-align: center;
+  list-style-type:none;
+  margin:0;
+  padding: 0;
+  float:right;
+  width:20%;
+>>>>>>> origin/master
+}
+
+#banks a:hover, a:active {
+  background-color: #1d65d4;
+}
+
+#check{
+  color: red;
+  font-size:1.2em;
+}
+#check li{
+  color: black;
+  display:inline-table;
+  border-style: solid;
+  border-width:thin;
+  list-style: none;
+  padding: 0;
+  width: 70%;
+}
+<<<<<<< HEAD
+#amount li{
+  visibility:visible;;
+=======
+
+
+#amount {
+  text-align:left;
+  font-size:1.2em;
+}
+
+
+.donors {
+  font-size: 1.25em;
+  display: block;
+  border-style:solid;
+  background-color:#208a43;
+  border-width:thin;
+  border-color:white;
+  color:white;
+  width:100%;
+  text-align:center;
+}
+
+
+.subdonors {
+  font-size:1.2em;
+  text-decoration: underline;
+  color:#208a43;
+}
+
+.names {
+  font-size:1.15em;
+  color:black;
+>>>>>>> origin/master
+}
