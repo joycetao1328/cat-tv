@@ -204,23 +204,11 @@ p{
 	font-size: 1rem;
 }
 
-.navcontainer ul li {
-	display: block;
-  flex-direction: row;
-justify-content: space-around;/*puts equal amounts of space around each item*/
-align-content: stretch;/*default; stretches items to take up space*/
-flex-wrap: wrap;
-}
 
 .navcontainer {
   display: none;
 }
 
-@media screen and (min-width: 0px) {
-	.navcontainer {
-		flex-direction: column;
-		justify-content: flex-start;
-	}
 	p {
 		width: 95%;
 		margin: 1em auto;
@@ -233,6 +221,7 @@ flex-wrap: wrap;
   }
 
 }
+
 
 
 @media screen and (min-width: 600px) {
