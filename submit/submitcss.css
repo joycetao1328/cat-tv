@@ -15,9 +15,34 @@ img {
   display: none;
 }
 
-#channel {
-  width: 100%;
+#mobilelogo{
+  width: 80%;
+  padding-right: 30px;
 }
+
+#search {
+  padding-top: 10px;
+  width:75%;
+}
+
+#channel {
+  width: 60%;
+}
+
+
+.pagestart {
+  display:flex;
+  flex-flow:row;
+}
+
+/*#channel {
+  flex: 1;
+}
+#topnav {
+  flex: 3;
+}*/
+
+
 
 body{
   margin: 0 auto;
@@ -58,7 +83,6 @@ p{
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 18%;
 }
 
 #submit a:link{
@@ -159,11 +183,10 @@ p{
 }
 
 #topnav li {
-  float: right;
+
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 18%;
 }
 
 .wrapper {
@@ -184,7 +207,7 @@ p{
 }
 
 .navcontainer {
-	padding: 0px;
+	  padding: 0px;
 		background: #fff;
 	  border-radius: 5px;
 		margin: 20px auto;
@@ -202,6 +225,8 @@ p{
 }
 
 
+
+
 .navcontainer {
   display: none;
 }
@@ -216,6 +241,24 @@ p{
   #logo {
     display: none;
   }
+ .top {
+  display: flex;
+  flex-flow:row;
+}
+.menu-trigger {
+  order:1;
+}
+
+#mobilelogo {
+
+  order:2;
+}
+
+#search {
+  order:3;
+}
+
+
 
 
 @media screen and (min-width: 600px) {
@@ -242,7 +285,13 @@ p{
   #mobilelogo{
     display: none;
   }
+  #search{
+    display: none;
+  }
 }
+
+
+
 
 @media screen and (min-width: 1000px) {
 	.navcontainer {
@@ -259,16 +308,13 @@ p{
     display: block;
   }
 
-  #logo2 {
-    display: none;
-  }
 
-  #mobilelogo{
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1000px) {
+ #mobilelogo{
+   display: none;
+ }
+ #search{
+   display: none;
+ }
   .top {
     display: flex;
     flex-flow: row;
@@ -277,22 +323,11 @@ p{
     width:25%;
   }
 
-	.navcontainer {
-		flex-direction: row;
-		justify-content: flex-start;
-		justify-content: space-around;
-	}
 	p {
 		width: 80%;
 		max-width: 60em;
 		margin: 1.5em auto;
 	}
-  #logo1{
-    display: none;
-  }
-  #logo2{
-    display: none;
-  }
 }
 
 .menu-trigger {
@@ -300,4 +335,5 @@ p{
   font-size: 5em;
   width: 5em;
   text-decoration: none;
+}
 }
