@@ -1,0 +1,19 @@
+#logo2{
+  width:2.5%;
+  height: 5%;
+  flex-flow: row;
+
+}
+
+#logo2 a:hover, a:active {
+  display: block;
+  padding: 10px;
+}
+
+#logo2 a:link, a:visited {
+  padding: 0px;
+  display: block;
+  border-left-style: solid;
+  border-left-width:thin;
+  border-color: none;
+}
