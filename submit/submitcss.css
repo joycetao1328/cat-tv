@@ -261,6 +261,7 @@ p{
 
 
 
+
 @media screen and (min-width: 600px) {
 	.navcontainer {
     justify-content: space-around;
@@ -335,5 +336,4 @@ p{
   font-size: 5em;
   width: 5em;
   text-decoration: none;
-}
 }
