@@ -270,6 +270,12 @@ p{
   text-align: center;
 }
 
+.main{
+  padding: 15px;
+}
+
+
+
 .three {
   display: flex;
   flex-flow: row;
