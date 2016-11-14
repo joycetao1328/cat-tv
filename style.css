@@ -264,8 +264,8 @@ p{
   display:block;
   background-color: black;
   order: 1;
-  font-size: 4.5em;
-  width: 1.5em;
+  font-size: 2em;
+  width: 1.75em;
   text-decoration: none;
   text-align: center;
 }
@@ -276,7 +276,7 @@ p{
 }
 
 .menu-trigger {
-  font-size: 7.5em;
+  font-size: 7em;
   order:1;
   flex:1;
 }
@@ -288,7 +288,8 @@ p{
   flex:1;
 }
 
-input {
+#search {
+  padding-top:15px;
   order:3;
   flex:1;
 }
