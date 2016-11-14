@@ -271,6 +271,29 @@ p{
   text-align: center;
 }
 
+.three {
+  display: flex;
+  flex-flow: row;
+}
+
+.menu-trigger {
+  font-size: 7.5em;
+  order:1;
+  flex:1;
+}
+
+#mobilelogo {
+  width: 110%;
+ padding-left:.5em;
+  order:2;
+  flex:1;
+}
+
+input {
+  order:3;
+  flex:1;
+}
+
 	p {
 		width: 95%;
 		margin: 1em auto;
@@ -281,22 +304,8 @@ p{
   #logo {
     display: none;
   }
- .top {
-  display: flex;
-  flex-flow:row;
-}
-.menu-trigger {
-  order:1;
-}
 
-#mobilelogo {
 
-  order:2;
-}
-
-#search {
-  order:3;
-}
 
 @media screen and (min-width: 600px) {
 	.navcontainer {
