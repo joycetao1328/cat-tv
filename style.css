@@ -296,7 +296,9 @@ p{
   padding: 15px;
 }
 
-
+#slideshow{
+  height: 320px;
+}
 
 .three {
   display: flex;
@@ -399,6 +401,10 @@ p{
  #Logo-Desktop{
    display: block;
  }
+
+ #slideshow{
+     height: 100%;
+   }
 }
 
 
@@ -425,12 +431,13 @@ p{
   .ds{
   flex-flow: row;
   padding-top: 0px;
+  padding-bottom: 0px;
   }
   #Logo-Desktop{
-    width: 100%;
+    width: 70%;
     height: 100%;
-    /*padding-right: 200px;
-    padding-top: 20px;*/
+    /*padding-right: 200px;*/
+    padding-top: -20px;
   }
   #channel {
     display:none;
@@ -464,7 +471,15 @@ p{
 		max-width: 60em;
 		margin: 1.5em auto;
 	}
+  #slideshow{
+    height: 100%;
+  }
 }
+
+
+
+
+
 
 .footertext {
   display: block;
