@@ -354,6 +354,29 @@ p{
   padding-top:10px;
 }
 
+.options {
+  display: flex;
+  flex-flow: row;
+}
+.option1 {
+  display:flex;
+  flex-flow:column;
+  flex:1;
+
+}
+
+.option2 {
+  display:flex;
+  flex-flow:column;
+  flex:1;
+
+}
+
+
+#click {
+  padding:0;
+}
+
 #channel{
   width:50%;
 }
@@ -536,3 +559,118 @@ p{
     width: 60px;
 
   }
+/*donate*/
+#click {
+  font-size: 35px;
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color:#1d65d4;
+  text-align: center;
+  text-decoration: none;
+  padding: 6px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #ffffff;
+  height:50px;
+  margin: 0 20%;
+}
+
+#banks {
+  display:flex;
+  flex-flow:row;
+  list-style: none;
+}
+
+
+.options li {
+  list-style: none;
+}
+#check{
+  color: red;
+  font-size:1.2em;
+}
+#check li{
+  color: black;
+  display:inline-table;
+  border-style: solid;
+  border-width:thin;
+  list-style: none;
+  padding: 0;
+  width: 70%;
+}
+
+.donorcontainer {
+ text-align:center;
+}
+
+.talent li {
+  list-style: none;
+}
+
+.producer li{
+  list-style: none;
+}
+
+.director li {
+  list-style: none;
+}
+
+.prodcuer li {
+  list-style: none;
+}
+
+.questions {
+  text-align: center;
+}
+.master {
+  flex:1;
+}
+
+.visa {
+  flex:1;
+}
+
+.ae {
+  flex:1;
+}
+
+.pp {
+  flex:1;
+}
+
+.dis {
+  flex:1;
+}
+
+
+
+
+
+.amount  {
+  display:block;
+  background-color: #327556;
+  color: white;
+  font-size: 20px;
+  text-align:left;
+}
+
+.amount li {
+  list-style:none;
+  padding:5px;
+
+}
+
+.donors {
+  color:white;
+  font-size:1.25em;
+  display: block;
+  background-color: #327556	;
+}
+
+
+.names {
+  font-size:1.15em;
+  color:black;
+  text-decoration:underline;
+}
