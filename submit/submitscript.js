@@ -1,19 +1,13 @@
 
-var slideIndex = 1;
-showDivs(slideIndex);
+$(document).ready(function() {
+  $('.menu-trigger').click(function() {
+    $('nav ul').slideToggle(500);
+  });//end slide toggle
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-}
+//When window is resized, the display:none is turned off for the ul so the menu displays on click or touch.
+  $(window).resize(function() {
+	   if (  $(window).width() > 700 ) {
+		$('nav ul').removeAttr('style');
+	 }
+	});//end resize
+});//end ready
