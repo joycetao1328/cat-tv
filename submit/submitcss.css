@@ -1,7 +1,13 @@
+
+/*copy paste*/
 img {
   border-style: none;
   width: 100%;
   display: block;
+}
+
+.videowrapper {
+  height: 200%;
 }
 
 .top{
@@ -9,6 +15,21 @@ img {
   flex-flow: column;
 }
 
+.videowrapper{
+  position: relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+
+.videowrapper iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
 
 #logo {
   width: 100%;
@@ -20,15 +41,17 @@ img {
   padding-right: 30px;
 }
 
-#search {
-  padding-top: 10px;
-  width:75%;
-}
 
 #channel {
   width: 60%;
 }
 
+#Logo-Desktop{
+  display: none;
+}
+input {
+  display: none;
+}
 
 .pagestart {
   display:flex;
@@ -206,13 +229,44 @@ p{
   padding: 10px;
 }
 
-.navcontainer {
+
+#navigation li{
+    display:block;
 	  padding: 0px;
 		background: #fff;
-	  border-radius: 5px;
-		margin: 20px auto;
+		margin: auto;
 	  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
-	}
+	  list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+}
+#navigation a:link, a:visited {
+  font-family:'Roboto Condensed', sans-serif;
+  display: block;
+  color: #ffffff;
+  background-color: #208a43;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border-left-style: solid;
+  border-left-width:thin;
+  border-color: none;
+}
+
+#navigation a:hover, a:active {
+  font-family:'Roboto Condensed', sans-serif;
+  color: #12572c;
+  background-color: #ffffff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  border-left-style: solid;
+  border-left-width:thin;
+  border-color: none;
+}
 
 	.item {
 	color: #fff;
@@ -224,11 +278,48 @@ p{
 	font-size: 1rem;
 }
 
-
-
-
-.navcontainer {
+#navigation {
   display: none;
+}
+
+.menu-trigger {
+  display:block;
+  background-color: black;
+  order: 1;
+  font-size: 4.5em;
+  width: 1.5em;
+  text-decoration: none;
+  text-align: center;
+}
+
+.main{
+  padding: 15px;
+}
+
+
+
+.three {
+  display: flex;
+  flex-flow: row;
+}
+
+.menu-trigger {
+  font-size: 7.5em;
+  order:1;
+  flex:1;
+}
+
+#mobilelogo {
+  width: 110%;
+ padding-left:.5em;
+  order:2;
+  flex:1;
+}
+
+#search {
+  padding-top:10px;
+  order:3;
+  flex:1;
 }
 
 	p {
@@ -241,37 +332,53 @@ p{
   #logo {
     display: none;
   }
- .top {
-  display: flex;
-  flex-flow:row;
+
+#channel2 {
+  display: none;
 }
-.menu-trigger {
-  order:1;
-}
-
-#mobilelogo {
-
-  order:2;
-}
-
-#search {
-  order:3;
-}
-
-
-
-
 
 @media screen and (min-width: 600px) {
-	.navcontainer {
+	#navigation {
     justify-content: space-around;
     justify-content: flex-start;
     display:flex;
     flex-flow:row;
+    padding-left:0;
 	}
+.ds {
+  display:flex;
+  flex-flow:column;
+  float:right;
+  padding-top:10px;
+}
+
+#channel{
+  width:50%;
+}
+.ds li {
+  width: 240px;
+}
   .menu-trigger {
     display: none;
   }
+
+
+  #desktop{
+    display: none;
+  }
+
+  .boardmembers{
+    display: flex;
+    flex-flow:row;
+    flex-wrap: wrap;
+  }
+
+.board1{
+  flex: 1;
+  margin-right: 20px;
+}
+
+
 	p {
 		width: 80%;
 		margin: 1em auto;
@@ -289,8 +396,10 @@ p{
   #search{
     display: none;
   }
+ #Logo-Desktop{
+   display: block;
+ }
 }
-
 
 
 
@@ -299,6 +408,32 @@ p{
 		flex-direction: row;;
 		justify-content: flex-start;
 		justify-content: space-around;
+  }
+
+.logox {
+  display:flex;
+  flex-flow:row;
+}
+  #channel2 {
+    display:block;
+    width:50%;
+    height:50%;
+    /*padding-top: 50px;
+    padding-right: 20px;
+    padding-top: 20px;*/
+  }
+  .ds{
+  flex-flow: row;
+  padding-top: 0px;
+  }
+  #Logo-Desktop{
+    width: 100%;
+    height: 100%;
+    /*padding-right: 200px;
+    padding-top: 20px;*/
+  }
+  #channel {
+    display:none;
   }
 	p {
 		width: 80%;
@@ -331,9 +466,39 @@ p{
 	}
 }
 
-.menu-trigger {
-  order: 1;
-  font-size: 5em;
-  width: 5em;
-  text-decoration: none;
+.footertext {
+  display: block;
+  background-color: #208a43;
+}
+
+.footertext p {
+  padding-top: 20px;
+  color:white;
+}
+.bottomlogo ul {
+  list-style-type: none;
+  display: flex:
+  flex-flow:row-reverse;
+  width:5%;
+  height:5%;
+}
+
+#fb img {
+  flex:1;
+  order:1;
+}
+
+#vm {
+  flex:1;
+  order:2;
+}
+
+#tw {
+  flex: 1;
+  order:3;
+}
+
+#vm {
+  flex:1;
+  order:4
 }
