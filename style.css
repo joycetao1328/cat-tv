@@ -286,6 +286,7 @@ p{
 .menu-trigger {
   display:block;
   background-color: #208A43;
+  color: white;
   order: 1;
   font-size: 4.5em;
   width: 1.5em;
