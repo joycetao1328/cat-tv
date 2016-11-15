@@ -292,6 +292,12 @@ p{
   text-align: center;
 }
 
+.main{
+  padding: 15px;
+}
+
+
+
 .three {
   display: flex;
   flex-flow: row;
@@ -356,9 +362,23 @@ p{
     display: none;
   }
 
+
   #desktop{
     display: none;
   }
+
+  .boardmembers{
+    display: flex;
+    flex-flow:row;
+    flex-wrap: wrap;
+  }
+
+.board1{
+  flex: 1;
+  margin-right: 20px;
+}
+
+
 	p {
 		width: 80%;
 		margin: 1em auto;
