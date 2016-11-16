@@ -103,6 +103,13 @@ h3 {
   text-align:center;
   }
 
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  color:#208a43;
+  font-weight: lighter;
+}
+
 p{
   font-size: 0.9em;
   font-family: 'Libre Baskerville', serif;
@@ -346,11 +353,31 @@ p{
   display: none;
 }
 
+#homemain {
+	display: flex;
+	flex-flow: row;
+	margin-top: 20px;
+}
+
+.videos {
+	display: flex;
+	order:1;
+	flex: 1 auto;
+	flex-flow: column;
+	max-width: 100%;
+}
+
+.twitter-timeline{
+	order:2;
+	flex: 1 auto;
+}
 .catfinancial a{
   text-decoration: underline;
   color: black;
   text-align: center;
 }
+
+
 @media screen and (min-width: 600px) {
 	#navigation {
     justify-content: space-around;
@@ -400,6 +427,7 @@ p{
   }
 
 
+
   #desktop{
     display: none;
   }
@@ -445,6 +473,21 @@ p{
      margin: 1.5em auto;
     line-height: 2em;
    }
+   .twitter-timeline{
+   			display: flex;
+   			flex-flow: column;
+   			order:1;
+   			flex: 1 100%;
+   		}
+
+       #homemain{
+ 			display: flex;
+ 			flex-flow: column;
+ 		}
+ 		.videos{
+ 			max-width: 60%;
+ 			border-right: none;
+ 		}
 }
 
 
@@ -528,7 +571,36 @@ p{
   .intro{
     order:2;
   }
+  .twitter-timeline{
+  			display: flex;
+  			flex-flow: column;
+  			order:1;
+  			flex: 1 100%;
+  		}
 
+      #homemain{
+			display: flex;
+			flex-flow: column;
+		}
+		.videos{
+			max-width: 60%;
+			border-right: none;
+		}
+    .video1{
+      display: flex;
+      flex-flow: column;
+    }
+    .video2{
+      display: flex;
+      flex-flow: column;
+    }
+  /*.videos{
+  position: relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}*/
 }
 
 
