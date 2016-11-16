@@ -55,7 +55,9 @@ input {
   display: flex;
 }
 
-
+form {
+  display: table;
+}
 
 .pagestart {
   display:flex;
