@@ -603,6 +603,7 @@ p{
   .twitter-timeline{
   			order:2;
   			flex: 1 100%;
+        max-width: 50%;
   		}
 
       .homecontent{
@@ -612,7 +613,7 @@ p{
 		.videos{
       display: flex;
       flex-flow: column;
-			max-width: 80%;
+			max-width: 60%;
 			border-right: none;
       order: 1;
       flex: 0.5;
