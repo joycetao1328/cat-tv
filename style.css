@@ -44,7 +44,8 @@ img {
 
 
 #channel {
-  width: 60%;
+  width: 65%;
+
 }
 
 #Logo-Desktop{
@@ -292,18 +293,17 @@ p{
   color: white;
   order: 1;
   font-size: 4.5em;
-  width: 1.5em;
+  width: 8.5em;
   text-decoration: none;
   text-align: center;
+
 }
 
 .main{
   padding: 15px;
 }
 
-#slideshow{
-  height: 320px;
-}
+
 
 .three {
   display: flex;
@@ -313,7 +313,8 @@ p{
 .menu-trigger {
   font-size: 7.5em;
   order:1;
-  flex:1;
+  flex:0.8;
+
 }
 
 #mobilelogo {
@@ -324,9 +325,9 @@ p{
 }
 
 #search {
-  padding-top:10px;
+  padding:35px 10px;
   order:3;
-  flex:1;
+  flex:0.8;
 }
 
 
@@ -440,6 +441,20 @@ p{
      margin: 1.5em auto;
     line-height: 2em;
    }
+   .intro{
+     order:2;
+     max-width: 600px;
+   }
+   #sean{
+     order: 1;
+     padding-top: 35px;
+
+   }
+   .staff{
+   display: flex;
+   flex-flow: row;
+
+   }
 }
 
 
@@ -522,8 +537,17 @@ p{
   }
   .intro{
     order:2;
+    max-width: 1000px;
   }
-
+  #sean{
+    order: 1;
+    padding-top: 40px;
+    padding-right: 10px;
+  }
+  .staff{
+  display: flex;
+  flex-flow: row;
+  }
 }
 
 
