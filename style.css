@@ -50,9 +50,12 @@ img {
 #Logo-Desktop{
   display: none;
 }
+
 input {
-  display: none;
+  display: flex;
 }
+
+
 
 .pagestart {
   display:flex;
