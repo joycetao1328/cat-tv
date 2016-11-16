@@ -53,10 +53,12 @@ img {
 
 input {
   display: flex;
+  padding: 5px;
 }
 
 form {
   display: table;
+  padding: 10px;
 }
 
 .pagestart {
