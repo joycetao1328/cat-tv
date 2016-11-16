@@ -557,6 +557,20 @@ p{
       order: 2;
       max-width: 600px;
     }
+    /*.equipments img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto
+      }*/
+      .calendarside{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+      }
+      .upnext{
+        padding-left: 20px;
+        min-width: 300px;
+      }
 }
 
 
@@ -715,17 +729,28 @@ p{
       order: 2;
     }
     .equipments img{
+      display: block;
       max-width: 50%;
-          padding-left: 350px;
-          padding-right: 200px;
       }
-
-    .equipments {
+    .equipments1{
+      display: flex;
+      flex-flow: column wrap;
+      max-width: 50%;
+      margin-left: auto;
+   margin-right: auto;
+   text-align:center;
+    }
+/*#calendar{
+display: block;
+  margin-left: auto;
+margin-right: auto;
+}*/
+    /*.equipments {
       text-align: center;
       display: flex;
       flex-flow: column;
       justify-content: center;
-    }
+    }*/
   /*.videos{
   position: relative;
   padding-bottom:56.25%;
