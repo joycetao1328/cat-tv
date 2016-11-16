@@ -92,21 +92,16 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: #12572c;
   font-size: 2em;
   font-family:'Roboto Condensed', sans-serif;
   text-align: center;
-  display: block;
+  /*display: block;
   background-color: #12572c;
   height: 50px;
-  padding: 25px;
+  padding: 25px;*/
 }
-.q1 h2{
-    color: black;
-    font-size: 2em;
-    font-family:'Roboto Condensed', sans-serif;
-    text-align: center;
-}
+
 
 h3 {
   font-size: .75em;
@@ -126,7 +121,36 @@ p{
   color: black;
   line-height: 1.5em;
 }
+#whatsup{
+  display: block;
+  background-color: #12572c;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.upnext{
+  display: flex;
+  flex-flow: column;
+  max-width: 600px;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color:black;
+  font-weight: lighter;
+  background-color: white;
+}
 
+.greentag{
+  display: block;
+  background-color: #208a43;
+  padding: 15px;
+  color: white;
+}
+.upnext ul li{
+  text-decoration: none;
+  list-style: none;
+  line-height: 24px;
+}
 #topnav li {
   float: right;
   list-style: none;
@@ -394,17 +418,24 @@ p{
   text-align: center;
 }
 
-
+.equipments{
+  text-align: center;
+}
 
 @media screen and (min-width: 600px) {
-  h2 {color: white;
+  .equipments img{
+      padding-left: 200px;
+      padding-right: 100px;
+      max-width: 50%;
+  }
+  h2 {color: #12572c;
   font-size: 2em;
   font-family:'Roboto Condensed', sans-serif;
   text-align: center;
-  display: block;
+  /*display: block;
   background-color: #12572c;
   height: 50px;
-  padding: 10px;
+  padding: 10px;*/
 }
   #navigation {
     justify-content: space-around;
@@ -542,22 +573,7 @@ p{
   justify-content: space-around;
 
 }
-.upnext{
-  display: flex;
-  flex-flow: column;
-  max-width: 600px;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
-  color:#208a43;
-  font-weight: lighter;
-  background-color: white;
-}
-.upnext ul li{
-  text-decoration: none;
-  list-style: none;
-  line-height: 24px;
-}
+
 .logox {
   display:flex;
   flex-flow:row;
@@ -687,12 +703,39 @@ p{
     .calendar{
       width: 100%;
     }
+    /*.studiocal{
+      display: flex;
+      flex-flow: row;
+    }*/
+    #studiocal{
+      order: 1;
+      background-color: black;
+    }
+    .studio{
+      order: 2;
+    }
+    .equipments img{
+      max-width: 50%;
+          padding-left: 350px;
+          padding-right: 200px;
+      }
+
+    .equipments {
+      text-align: center;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+    }
   /*.videos{
   position: relative;
   padding-bottom:56.25%;
   padding-top:30px;
   height:0;
   overflow:hidden;
+}*/
+/*.studio{
+  display: flex;
+  flex-flow: column;
 }*/
 }
 
