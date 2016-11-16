@@ -309,8 +309,15 @@ p{
   text-align: center;
 }
 
-.main{
+.maintext{
   padding: 15px;
+}
+.maintext_contact{
+  padding: 15px;
+  text-align: left;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
 
 #slideshow{
@@ -488,6 +495,17 @@ p{
  			max-width: 60%;
  			border-right: none;
  		}
+    .staff{
+      display: flex;
+      flex-flow: row;
+    }
+    #sean{
+      order: 1;
+    }
+    .intro{
+      order: 2;
+      max-width: 600px;
+    }
 }
 
 
@@ -555,11 +573,18 @@ p{
 		max-width: 60em;
 		margin: 1.5em auto;
 	}
-
+.staff{
+  display: flex;
+  flex-flow: row;
+}
+#sean{
+  order: 1;
+}
   .whatiscat{
     display: flex;
     flex-flow: row;
   }
+
   .catvideo iframe{
     position:relative;
     width: 100% auto;
@@ -570,6 +595,10 @@ p{
   }
   .intro{
     order:2;
+    max-width: 1000px;
+  }
+  #catmap{
+    width: 50%;
   }
   .twitter-timeline{
   			display: flex;
