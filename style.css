@@ -90,13 +90,21 @@ h1 {
 }
 
 h2 {
-  color: #12572c;
+  color: white;
   font-size: 2em;
   font-family:'Roboto Condensed', sans-serif;
-  text-decoration: underline;
   text-align: center;
+  display: block;
+  background-color: #12572c;
+  height: 50px;
+  padding: 25px;
 }
-
+.q1 h2{
+    color: black;
+    font-size: 2em;
+    font-family:'Roboto Condensed', sans-serif;
+    text-align: center;
+}
 
 h3 {
   font-size: .75em;
@@ -385,8 +393,18 @@ p{
 }
 
 
+
 @media screen and (min-width: 600px) {
-	#navigation {
+  h2 {color: white;
+  font-size: 2em;
+  font-family:'Roboto Condensed', sans-serif;
+  text-align: center;
+  display: block;
+  background-color: #12572c;
+  height: 50px;
+  padding: 10px;
+}
+  #navigation {
     justify-content: space-around;
     justify-content: flex-start;
     display:flex;
@@ -516,7 +534,28 @@ p{
 		justify-content: flex-start;
 		justify-content: space-around;
   }
+.calendarside{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
 
+}
+.upnext{
+  display: flex;
+  flex-flow: column;
+  max-width: 600px;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color:#208a43;
+  font-weight: lighter;
+  background-color: white;
+}
+.upnext ul li{
+  text-decoration: none;
+  list-style: none;
+  line-height: 24px;
+}
 .logox {
   display:flex;
   flex-flow:row;
@@ -592,6 +631,7 @@ p{
   .catvideo{
     order:1;
     padding-left: 20px;
+    padding-top: 26px;
   }
   .intro{
     order:2;
@@ -609,6 +649,7 @@ p{
       .homecontent{
 			display: flex;
 			flex-flow: row;
+
 		}
 		.videos{
       display: flex;
@@ -616,8 +657,15 @@ p{
 			max-width: 60%;
 			border-right: none;
       order: 1;
-      flex: 0.5;
+      flex: 1;
 		}
+    #twitterhold{
+      order: 2;
+      max-width: 30%;
+      height: 1000px;
+      padding-left: 20px;
+      padding-top: 100px;
+    }
     .video1{
       display: flex;
       flex-flow: column;
@@ -633,6 +681,9 @@ p{
     .video4{
       display: flex;
       flex-flow: column;
+    }
+    .calendar{
+      width: 100%;
     }
   /*.videos{
   position: relative;
